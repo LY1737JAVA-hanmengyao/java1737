@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<h1>注册页</h1>
+    <form action="注册页" method="post">
+        <p>姓名：<input type="text" name="name" size="20"/>
+        <p>密码：<input type="password" name="123" /></p>
+        <p><input type="radio" name="nan" checked="checked"/>男
+           <input type="radio" name="nv" />女
+        </p>
+        <p>照片：<input type="file" /></p>
+        <P>爱好：<input type="checkbox" name="shu"  />书
+             <input type="checkbox" name="yundong"  />运动
+           <input type="checkbox" name="laiotian"  />聊天
+        </p>
+        <p><h3>所在城市：<select name ="city" size ="1"> 
+        		<option value="请选择" selected="selected">请选择</option>
+                <option value="北京" >北京</option>
+                <option value="上海" >上海</option>
+                <option value="杭州" >杭州</option>
+                <option value="郑州" >郑州</option>
+                <option value="广州" >广州</option>
+                        </select>
+           </h3>
+        </p>
+        <h3>协议：</h3>
+        <textarea name ="qiuzhi"  cols="25" rows ="3" readonly="readonly">请遵守相关规定，互相尊重，营造良好氛围。</textarea>
+        <p><input type ="checkbox" name="xieyi" />我认真阅读并接受以上协议</p>
+        <p><input type="submit" name="tijiao" value="提交" disabled ="disabled"/>
+           <input type="reset" name="chongzhi" value="重置"/>
+        </p>
+
+</body>
+</html>
